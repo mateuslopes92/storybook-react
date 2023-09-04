@@ -10,8 +10,6 @@ function Button({ label, backgroundColor = "red", size = "md", onClick }) {
     backgroundColor,
     padding: `${scale * 0.5}rem ${scale * 1}rem`,
     border: "none",
-    color: 'white',
-    fontWeight: '700'
   }
 
   return (
